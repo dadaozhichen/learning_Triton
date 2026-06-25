@@ -23,8 +23,8 @@
 | 文件名 | 算子名称 | 核心知识点 | 误差 |
 | :--- | :--- | :--- |:---:|
 | `add.py` | 向量加法 | Block 并行、指针操作、Mask 防越界 | 0 |
-| `softmax.py` | Softmax 融合 | 归约操作 (Reduction)、内存优化 | $10^{-10}$ |
-| `matmul.py` | 矩阵乘法 | Tiling、`tl.dot`、2D 网格 / FP16 | $10^{-4}$ |
+| `softmax.py` | Softmax 融合 | 归约操作 (Reduction)、内存优化 | $ 10^{-10} $ |
+| `matmul.py` | 矩阵乘法 | Tiling、`tl.dot`、2D 网格 / FP16 | $ 10^{-4} $ |
 
 ###   ️ 进阶路线图
 
